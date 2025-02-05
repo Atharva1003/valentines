@@ -8,17 +8,17 @@ canvas.height = 400;
 
 // Load images
 const playerImage = new Image();
-playerImage.src = "D:/Softwares/Microsoft_VS_Code/Runner/assets/Atharva.png"; // Player character
+playerImage.src = "https://github.com/Atharva1003/valentines/blob/main/Runner/assets/Atharva.png"; // Player character
 
 const girlfriendImage = new Image();
-girlfriendImage.src = "D:/Softwares/Microsoft_VS_Code/Runner/assets/Avanti.png"; // Girlfriend at the end
+girlfriendImage.src = "https://github.com/Atharva1003/valentines/blob/main/Runner/assets/Avanti.png"; // Girlfriend at the end
 
 const obstacleImage = new Image();
-obstacleImage.src = "D:/Softwares/Microsoft_VS_Code/Runner/assets/cactus.png"; // Obstacle (like the Dino game)
+obstacleImage.src = "https://github.com/Atharva1003/valentines/blob/main/Runner/assets/cactus.png"; // Obstacle (like the Dino game)
 
 // Load sounds
-const jumpSound = new Audio("D:/Softwares/Microsoft_VS_Code/Runner/assets/jump.mp3");
-const bgMusic = new Audio("D:/Softwares/Microsoft_VS_Code/Runner/assets/music.mp3");
+const jumpSound = new Audio("https://github.com/Atharva1003/valentines/blob/main/Runner/assets/jump.mp3");
+const bgMusic = new Audio("https://github.com/Atharva1003/valentines/blob/main/Runner/assets/music.mp3");
 bgMusic.loop = true; // Loop background music
 
 // Ensure music plays after user interaction
